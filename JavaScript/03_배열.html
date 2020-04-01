@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function get_members() {
+			return ['egoing', 'k8805', 'sorialgi'];
+		}
+
+		members = get_members();
+
+		for (i = 0; i < members.length; i++) {
+			document.write(members[i].toUpperCase());
+			document.write('<br />');
+		}
+
+		var li = ['a', 'b', 'c', 'd', 'e'];
+		li.push('f');	// 인자 배열에 추가
+		alert(li);
+		li = li.concat(['f', 'g']);	// 복수 원소 배열에 추가
+		alert(li);
+		li.unshift('z');	// 배열의 처음에 원소 추가
+		alert(li);
+		li.splice(2, 0, 'B');
+		alert(li);
+
+	</script>
+</body>
+</html>
