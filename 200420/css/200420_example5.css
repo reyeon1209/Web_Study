@@ -1,0 +1,14 @@
+a {
+  color: #0087cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff7b29;
+}
+
+a::after {
+  color: #9799a7;
+  content: " (" attr(href) ")";
+  font-size: 11px;
+}
