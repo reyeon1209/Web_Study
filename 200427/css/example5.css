@@ -1,0 +1,28 @@
+body {
+  color: #fff;
+  margin: 12px 15px;
+}
+.original {
+  background: #eaeaed;
+  border: 1px dashed #cecfd5;
+  border-radius: 6px;
+  float: left;
+  margin: 12px 15px;
+}
+.box {
+  background: #2db34a;
+  border-radius: 6px;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  width: 95px;
+}
+.box-1 {
+  transform: perspective(200px);
+}
+.box-2 {
+  transform: perspective(200px) translateZ(-50px);
+}
+.box-3 {
+  transform: perspective(200px) translateZ(50px);
+}
