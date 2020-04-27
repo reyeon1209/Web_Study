@@ -1,0 +1,20 @@
+body {
+  color: #FFFFFF;
+}
+
+.box-set,
+.box {
+  border-radius: 6px;
+}
+
+.box-set {
+  background: #eaeaed;
+}
+
+.box {
+  background: #2db34a;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  width: 80px;
+}
