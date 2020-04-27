@@ -1,0 +1,20 @@
+body {
+  color: #FFFFFF;
+}
+
+.box {
+  background: #2db34a;
+  border-radius: 6px;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
