@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: '나눔 고딕', 'NanumGothic', '맑은 고딕', Gothic;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  background: #E6E6E6;
+}
+
+#page-wrapper {
+  background: #FFFFFF;
+  margin: 40px 0 40px 0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+#main-header {
+  padding: 40px 50px 40px 50px;
+}
+
+.master-title {
+  font-size: 30px;
+  color: #181818;
+  display: block;
+  text-align: left;
+}
+
+.master-description {
+  font-size: 15px;
+  color: #383838;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+}
+
+#main-navigation {
+  border-top: 1px dotted #C8C8C8;
+  border-bottom: 1px dotted #C8C8C8;
+  margin: 0 0 20px 0;
+  height: 40px;
+}
+
+.outer-menu-item {
+  display: inline-block;
+  float: left;
+}
+
+.menu-title {
+  height: 30px;
+  text-align: center;
+  line-height: 40px;
+  padding: 5px 20px 5px 20px;
+  color: #000000;
+}
+
+a:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+a:active {
+  color: #FFF000;
+}
+
+#content {
+  overflow: hidden;
+}
+
+#main-section {
+  float: left;
+  width: 710px;
+}
+
+#main-aside {
+  float: right;
+  width: 200px;
+  display: block;
+  text-align: left;
+}
+
+article {
+  padding: 0 10px 20px 10px;
+  border-bottom: 1px solid #C8C8C8;
+}
+
+.article-header {
+  padding: 20px 0 20px 0;
+  display: block;
+  text-align: left;
+}
+
+.article-title {
+  font-size: 25px;
+  padding: 0 0 10px 0;
+  font-weight: 500;
+}
+
+.article-date {
+  font-size: 13px;
+}
+
+.article-body {
+  font-size: 14px;
+}
+
+img[src*="Sejong_mark.png"] {
+  width: 280px;
+  height: 280px;
+  display: block;
+  text-align: left;
+}
+
+img[src*="Datascience.jpg"] {
+  width: 430px;
+  height: 280px;
+  display: block;
+  text-align: left;
+}
+
+.aside-list {
+  padding: 10px 0 30px 0;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+a {
+  margin: 0 0 0 8px;
+  font-size: 13px;
+  color: #6C6C6C;
+}
+
+footer {
+  font-size: 10px;
+  color: #666666;
+}
+
+p {
+  text-align: justify;
+}

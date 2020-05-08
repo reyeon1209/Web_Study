@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: '나눔 고딕', 'NanumGothic', '맑은 고딕', Gothic;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  background: #E6E6E6;
+}
+
+#page-wrapper {
+  background: #FFFFFF;
+  margin: 40px 0 40px 0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+#main-header {
+  padding: 40px 50px 40px 50px;
+}
+
+.master-title {
+  font-size: 30px;
+  color: #181818;
+  display: block;
+  text-align: left;
+}
+
+.master-description {
+  font-size: 15px;
+  color: #383838;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+}
+
+#main-navigation {
+  border-top: 1px dotted #C8C8C8;
+  border-bottom: 1px dotted #C8C8C8;
+  margin: 0 0 20px 0;
+  height: 40px;
+}
+
+.outer-menu-item {
+  display: inline-block;
+  float: left;
+}
+
+.menu-title {
+  height: 30px;
+  text-align: center;
+  line-height: 40px;
+  padding: 5px 20px 5px 20px;
+  color: #000000;
+}
+
+a:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+a:active {
+  color: #FFF000;
+}
+
+#content {
+  overflow: hidden;
+}
+
+#main-section {
+  float: left;
+  width: 710px;
+}
+
+#main-aside {
+  float: right;
+  width: 200px;
+  display: block;
+  text-align: left;
+}
+
+article {
+  padding: 0 10px 20px 10px;
+  border-bottom: 1px solid #C8C8C8;
+}
+
+.article-header {
+  padding: 20px 0 20px 0;
+  display: block;
+  text-align: left;
+}
+
+.article-title {
+  font-size: 25px;
+  padding: 0 0 10px 0;
+  font-weight: 500;
+}
+
+.article-date {
+  font-size: 13px;
+}
+
+.article-body {
+  font-size: 14px;
+}
+
+img[src*="Sejong_mark.png"] {
+  width: 280px;
+  height: 280px;
+  display: block;
+  text-align: left;
+}
+
+img[src*="Datascience.jpg"] {
+  width: 430px;
+  height: 280px;
+  display: block;
+  text-align: left;
+}
+
+.aside-list {
+  padding: 10px 0 30px 0;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+a {
+  margin: 0 0 0 8px;
+  font-size: 13px;
+  color: #6C6C6C;
+}
+
+footer {
+  font-size: 10px;
+  color: #666666;
+}
+
+p {
+  text-align: justify;
+}
+
+
+/*@@@@@추가@@@@@*/
+
+.time-table {
+  color: #06425C;
+  text-align: center;
+  border: 3px solid #000000;
+  border-radius : 0 0 25px 25px;
+  border-spacing: 0;
+}
+
+tr {
+  background: #F2F2F2;
+}
+
+tr:last-child {
+	border-radius: 0 0 25px 25px;
+}
+
+tr:last-child>td:first-child {
+  border-radius: 0 0 0 25px;
+}
+
+tr:last-child>td:last-child {
+	border-radius: 0 0 25px 0;
+}
+
+caption {
+  text-transform : uppercase;
+  background: #666666;
+  color: #FFFFFF;
+  font-size: 150%;
+  border-radius: 25px 25px 0 0;
+}
+
+th, td {
+  margin: 2px 2px 2px 2px;
+  padding: 0 0 2px 0;
+}
+
+th {
+  background: #FFFFFF;
+}
+
+td {
+  width: 100px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.prof-song, .prof-lee, .prof-cho, .prof-seo {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.prof-song {
+  background: #51A39D;
+}
+
+.prof-lee {
+  background: #53D1D6;
+}
+
+.prof-cho {
+  background: #36B55A;
+}
+
+.prof-seo {
+  background: #B52097;
+}
+
+span {
+  text-align: center;
+  color: #FF0000;
+  visibility: hidden;
+}
+
+td:active>span {
+  visibility: visible;
+}
