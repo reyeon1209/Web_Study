@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Object</title>
+    </head>
+    <body>
+        <h2>JavaScript Objects</h2>
+        <img src="imgs/yuna.jpg" alt="yuna Kim" width="400" height="600" id="myId">
+        <p id="demo"></p>
+
+        <script>
+            var topic = document.getElementById('myId');
+            document.getElementById("demo").innerHTML =
+            topic.src + "<br>" + topic.alt + "<br>" + topic.width + "<br>" + topic.height;
+        </script>
+    </body>
+</html>

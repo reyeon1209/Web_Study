@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Variable assignments</title>
+    </head>
+    <body>
+        <h2>Variable examples</h2>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+
+        <script>
+            function myFunction() {
+                var name = prompt("What is your name", "Jae-Yeon Yang");
+                document.getElementById("demo").innerHTML = name;
+                
+                var date = Date();
+                document.getElementById("demo2").innerHTML = date;
+
+                var location = window.location;
+                document.getElementById("demo3").innerHTML = location;
+            }
+        </script>
+    </body>
+</html>
