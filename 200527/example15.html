@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Combine if and for</title>
+    </head>
+    <body>
+        <h1>Combine if and for</h1>
+        <p id="demo"></p>
+
+        <script>
+            var grades = [2, 5, , , 9, 8, , 8];
+            var sum = 0;
+            var count = 0;
+            if (grades.length > 0) {
+                for (index = 0; index < grades.length; index++) {
+                    if (grades[index] != undefined) {
+                        sum += grades[index];
+                        count = count + 1;
+                    }
+                }
+                document.getElementById("demo").innerHTML = sum/count;
+            }
+            else {
+                document.getElementById("demo").innerHTML = "Empty Array";
+            }
+        </script>
+    </body>
+</html>

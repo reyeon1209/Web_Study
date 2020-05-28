@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Array Object</title>
+    </head>
+    <body>
+        <h3>Array have attributes and methods</h3>
+        <p id="length"></p>
+        <p id="push"></p>
+        <p id="sort"></p>
+
+        <script>
+            var grades = [80, 87, 94, 82, 62, 98, 81, 81, 74, 91];
+            document.getElementById("length").innerHTML = "The length of array is " + grades.length;
+            grades.push(83);
+            document.getElementById("push").innerHTML = "83 is added : " + grades;
+            grades.sort();
+            document.getElementById("sort").innerHTML = "sorted result : " + grades;
+        </script>
+    </body>
+</html>
