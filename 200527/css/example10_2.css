@@ -1,0 +1,16 @@
+img {
+    width: 200px;
+    display: inline-block;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#message {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid black;
+    background: #888888;
+    margin: 2px;
+    width: 836px;
+}
