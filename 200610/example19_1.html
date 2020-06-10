@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Limiting Number</title>
+  </head>
+
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td><label for="datebefore">Enter a date before 1980-01-01 : </label></td>
+          <td><input type="date" id="datebefore" name="bday" max="1979-12-31"></td>
+        </tr>
+
+        <tr>
+          <td><label for="dateafter">Enter a date after 2000-01-01 : </label></td>
+          <td><input type="date" id="dateafter" name="bday" min="2000-01-02"></td>
+        </tr>
+
+        <tr>
+          <td><label for="quantity">Quantity (between 1 and 5) : </label></td>
+          <td><input type="number" id="quantity" name="quantity" min="1" max="5"></td>
+        </tr>
+      </table>
+
+      <br>
+      
+      <input type="submit">
+    </form>
+  </body>
+</html>
