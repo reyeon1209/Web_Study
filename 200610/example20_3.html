@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Validation with JavaScript</title>
+    <link rel="stylesheet" href="css/example20_3.css">
+    <script src="js/example20_3.js"></script>
+  </head>
+
+  <body>
+    <form action="example20.html">
+      <label>Your Name : 
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </label>
+
+      <label>Preferred email address : 
+        <input type="email" id="email_addr" name="email1" value="me@me.com" required>
+      </label>
+
+      <label>Repeat email address : 
+        <input type="email" id="email_repeat" name="email2" required>
+      </label>
+
+      <br>
+
+      <input type="submit" value="Next" onclick="return check()">
+      <input type="submit" value="Save" onclick="return false">
+    </form>
+  </body>
+</html>
