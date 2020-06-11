@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SVG로 그리기</title>
+    <style>
+      text { fill: black; }
+      rect { fill: red; }
+      svg { width: 400px; height: 240px; }
+    </style>
+  </head>
+
+  <body>
+    <h1>문자의 글꼴 지정</h1>
+
+    <svg>
+      <rect x="200" y="0" width="1" height="160" />
+
+      <text x="200" y="40" font-size="24px" font-weight="bold" text-anchor="start">
+        SVG 텍스트 예제
+      </text>
+
+      <text x="200" y="80" font-size="24px" font-weight="바탕" text-anchor="middle">
+        SVG 텍스트 예제
+      </text>
+
+      <text x="200" y="120" font-size="24px" font-weight="궁서" text-anchor="end">
+        SVG 텍스트 예제
+      </text>
+    </svg>
+  </body>
+</html>

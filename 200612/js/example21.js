@@ -1,0 +1,7 @@
+d3.select("#myBar")
+    .attr("x", "10px")
+    .attr("y", "50px")
+    .attr("width", "200px")
+    .attr("height", "30px")
+    .style("fill", "red")
+    .style("stroke", "black")

@@ -5,7 +5,7 @@ svg {
 }
 
 #myGraph rect {
-    stroke: rgb(160, 0, 0);
-    stroke-width: 1px;
+    stroke: rgb(160, 0, 0); /* 도형의 선 색 지정 */
+    stroke-width: 1px;  /* 도형의 선 굵기 지정 */
     fill: rgb(255, 0, 0);
 }

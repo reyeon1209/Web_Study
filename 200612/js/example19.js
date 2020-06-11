@@ -1,0 +1,7 @@
+d3.select("#myGraph")
+    .append("svg")
+    .append("rect")
+    .attr("x", "10px")
+    .attr("y", "50px")
+    .attr("width", "200px")
+    .attr("height", "30px")

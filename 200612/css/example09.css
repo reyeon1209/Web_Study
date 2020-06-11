@@ -1,0 +1,16 @@
+svg {
+    width: 320px;
+    height: 240px;
+    border: 1px solid black;
+}
+
+rect {
+    stroke-width: 4px;
+    stroke: black;
+    fill: orange;
+}
+
+circle {
+    opacity: 0.75;  /* 투명도 */
+    fill: blue;
+}
