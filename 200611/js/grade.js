@@ -7,8 +7,10 @@ function InputGrade() {
     var grade = Number(input);
 
     if (!Number.isInteger(grade)) {
-      i--;
-    } else {
+      i--;  // 숫자가 아닌 경우 다시 입력
+    }
+    
+    else {
       sum += grade;
       document.getElementsByClassName("grade")[i].innerHTML = grade;
     }

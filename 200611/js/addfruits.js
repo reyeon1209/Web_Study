@@ -1,7 +1,7 @@
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 function LoadFruits() {
-  document.getElementById("frutis").innerHTML = fruits;
+  document.getElementById("fruits").innerHTML = fruits;
 }
 
 function myFunction() {
