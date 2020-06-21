@@ -16,7 +16,7 @@ d3.select("#myGraph")
     .attr("width", function(d, i) {
         return d + "px";
     })
-    .on("click", function() {
-        d3.select(this)             // 클릭한 요소 지정
-            .style("fill", "cyan")  // 클릭하면 하늘색으로 채우기
+    .on("click", function() {       // 클릭 이벤트 처리
+        d3.select(this)             // 클릭한 요소(this)를
+            .style("fill", "cyan")  // cyan색으로 fill
     })
