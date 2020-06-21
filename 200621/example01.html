@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table form</title>
+  </head>
+
+  <body>
+    <form>
+        <fieldset>
+            <!--fieldset : 테두리, legent : 테두리의 제목-->
+            <legend>입력양식</legend>                                
+            <table>
+                <tr>
+                    <td><label for="username">이름</label></td>
+                    <td><input type="text" id="username" name="username"></td>
+                </tr>
+
+                <tr>
+                    <td>성별</td>
+                    <td>
+                        <input type="radio" id="woman" name="gender" value="w">
+                        <label for="woman">여자</label>
+
+                        <input type="radio" id="man" name="gender" value="m">
+                        <label for="man">남자</label>
+                    </td>
+                </tr>
+            </table>
+
+            <br><input type="submit" value="가입">
+        </fieldset>
+    </form>
+  </body>
+</html>
