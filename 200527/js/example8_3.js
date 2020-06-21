@@ -1,9 +1,9 @@
-function closeMe() {
+function closeMe(){
     x = document.getElementsByClassName('demo')[0];
-    x.style.display = "none";
+    x.id = "closed";
 }
 
-function openMe() {
+function openMe(){
     x = document.getElementsByClassName('demo')[0];
-    x.style.display = "block";
+    x.id = "open";
 }
