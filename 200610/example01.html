@@ -9,21 +9,20 @@
     <h2>HTML Forms</h2>
 
     <form>
+      <!--label의 for 속성과 input의 id 속성이 같아야 함-->
         <label for="name">Name : </label>
-        <input type="text" name="name" value="name">
-        
+        <input type="text" name="name" value="Name">
         <br>
 
-        <label> Email : <input type="email" name="email" value="email"></label>
-
+        <label for="email"> Email : </label>
+        <input type="email" name="email" value="Email">
         <br>
 
         <label for="birth">Birth : </label>
-        <input type="date" name="birth" value="birth">
-        
+        <input type="date" name="birth" value="Birth">
         <br>
-        
-        <input type="submit" value="Click Here">
+
+        <br><input type="submit" value="Click Here">
     </form>
   </body>
 </html>
