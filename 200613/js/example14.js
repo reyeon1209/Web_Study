@@ -1,3 +1,4 @@
+// xml 불러오기
 d3.xml("https://reyeon1209.github.io/Web_Study/200613/data/mydata.xml",
     function(error, xmlRoot) {
         var xmlData = xmlRoot.querySelectorAll("data"); // data요소를 추출
@@ -16,12 +17,12 @@ d3.xml("https://reyeon1209.github.io/Web_Study/200613/data/mydata.xml",
             .enter()
             .append("rect")
             .attr("class", "bar")
-            .attr("width", function(d, i) {
-                return d;
-            })
-            .attr("height", 20)
             .attr("x", 0)
             .attr("y", function(d, i) {
                 return i * 25;
             })
+            .attr("width", function(d, i) {
+                return d + "px";
+            })
+            .attr("height", "20px")
         })

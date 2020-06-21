@@ -17,19 +17,19 @@ d3.selectAll("button").on("click", function() {
 		//데이터가 추가될 때
 		barElements.enter()
                     .append("rect")
-                    .attr("class", "bar")	
-                    .attr("width", function(d, i) {	
-                        return d;	
-		            })
-                    .attr("height", 20)	
-                    .attr("x", 0)	
+					.attr("class", "bar")
+					.attr("x", 0)	
                     .attr("y", function(d, i) {	
                         return i * 25
-                    })
-          
+                    })	
+                    .attr("width", function(d, i) {	
+                        return d + "px";	
+		            })
+                    .attr("height", "20px")	
+                    
 		// 데이터가 갱신될 때
 		barElements.attr("width", function(d, i) {	
-			return d;
+			return d + "px";
           })
           
 		// 데이터가 삭제될 때

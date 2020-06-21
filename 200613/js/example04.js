@@ -1,6 +1,6 @@
 d3.select("#myBar")
-    .attr("x", "10px")
-    .attr("y", "50px")
+    .attr("x", "10")
+    .attr("y", "50")
     .attr("width", "200px")
     .attr("height", "30px")
     .style("fill", "red")

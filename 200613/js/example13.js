@@ -1,3 +1,4 @@
+// json 불러오기
 d3.json("https://reyeon1209.github.io/Web_Study/200613/data/mydata.json",
     function(error, data) {
         var dataSet = [];
@@ -12,12 +13,12 @@ d3.json("https://reyeon1209.github.io/Web_Study/200613/data/mydata.json",
             .enter()
             .append("rect")
             .attr("class", "bar")
-            .attr("width", function(d, i) {
-                return d;
-            })
-            .attr("height", 20)
             .attr("x", 0)
             .attr("y", function(d, i) {
                 return i * 25;
             })
+            .attr("width", function(d, i) {
+                return d + "px";
+            })
+            .attr("height", "20px")
         })

@@ -1,3 +1,4 @@
+// tsv 불러오기
 d3.tsv("https://reyeon1209.github.io/Web_Study/200613/data/mydata.tsv",
     function(error, data) {
         var dataSet = [];
