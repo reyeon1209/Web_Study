@@ -1,0 +1,19 @@
+img {
+    display: inline-block;
+    width: 8%;
+    height: 8%;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+div {
+    width: 50%;
+    height: 50%;
+    margin: center;
+    text-align: center;
+}
+
+#photo {
+    width: 100%;
+    height: 100%;
+}

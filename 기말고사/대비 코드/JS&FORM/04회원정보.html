@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Ex2</title>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>회원정보</legend>
+        <table>
+          <tr>
+            <td><label for="user_name">이름</label></td>
+            <td><input type="text" id="user_name" name="join" value="재연"></td>
+          </tr>
+
+          <tr>
+            <td>성별</td>
+            <td>
+              <input type="radio" id="woman" name="gender" value="w" checked>
+              <label for="woman">여자</label>
+
+              <input type="radio" id="man" name="gender" value="m">
+              <label for="mam">남자</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>취미</td>
+            <td>
+              <input type="checkbox" id="exercise" value="ex">
+              <label for="exercise">운동</label>
+
+              <input type="checkbox" id="music" value="mu" checked>
+              <label for="music">음악</label>
+
+              <input type="checkbox" id="develop" value="dev" checked>
+              <label for="develop">개발</label>
+            </td>
+          </tr>
+        </table>
+
+        <br><input type="submit" value="제출">
+      </fieldset>
+    </form>
+  </body>
+</html>

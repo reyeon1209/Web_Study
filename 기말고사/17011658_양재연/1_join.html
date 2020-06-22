@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Ex2</title>
+    <link rel="stylesheet" href="css/join.css">
+    <script src="js/1_join.js"></script>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>회원정보</legend>
+
+        <table>
+          <tr>
+            <td><label for="user_id">아이디</label></td>
+            <td><input type="text" id="user_id" name="join" value="mysid88"></td>
+          </tr>
+
+          <tr>
+            <td><label for="user_password">비밀번호</label></td>
+            <td><input type="password" id="user_password" name="join" value="8888"></td>
+          </tr>
+          <tr>
+            <td><label for="user_password_check">비밀번호 확인</label></td>
+            <td><input type="password" id="user_password_check" name="join" value="8888"
+                onchange="return check_password()"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><p id="check">비밀번호 확인</p></td>
+          </tr>
+
+          <tr>
+            <td><label for="user_name">이름</label></td>
+            <td><input type="text" id="user_name" name="join" value="서영덕"></td>
+          </tr>
+          <tr>
+            <td>성별</td>
+            <td>
+              <input type="radio" id="man" name="gender" checked>
+              <label for="man">남성</label>
+              <input type="radio" id="woman" name="gender">
+              <label for="woman">여성</label>
+            </td>
+          </tr>
+          <tr>
+            <td>취미</td>
+            <td>
+                <input type="checkbox" id="exercise" value="ex" checked>
+              <label for="exercise">운동</label>
+
+              <input type="checkbox" id="music" value="mu">
+              <label for="music">음악</label>
+
+              <input type="checkbox" id="develop" value="dev">
+              <label for="develop">개발</label>
+            </td>
+          </tr>
+        </table>
+
+        <input type="submit" value="제출">
+      </fieldset>
+    </form>
+  </body>
+</html>
